@@ -1,0 +1,86 @@
+    [
+        {
+            "stream_start_time": null,
+            "stream_end_time": null,
+            "stream_modalities": ["FIB"],
+            "camera_names": [],
+            "daq_names": [""],
+            "detectors": [
+                {
+                    "exposure_time": "15650",
+                    "exposure_time_unit": "microsecond",
+                    "name": "Green CMOS",
+                    "trigger_type": "Internal"
+                },
+                {
+                    "exposure_time": "15650",
+                    "exposure_time_unit": "microsecond",
+                    "name": "Red CMOS",
+                    "trigger_type": "Internal"
+                }
+            ],
+            "ephys_modules": [],
+            "fiber_connections": [
+                {
+                    "fiber_name": "Fiber 0",
+                    "output_power_unit": "microwatt",
+                    "patch_cord_name": "Patch Cord 0",
+                    "patch_cord_output_power": "20"
+                },
+                {
+                    "fiber_name": "Fiber 1",
+                    "output_power_unit": "microwatt",
+                    "patch_cord_name": "Patch Cord 1",
+                    "patch_cord_output_power": "20"
+                },
+                {
+                    "fiber_name": "Fiber 2",
+                    "output_power_unit": "microwatt",
+                    "patch_cord_name": "Patch Cord 2",
+                    "patch_cord_output_power": "20"
+                },
+                {
+                    "fiber_name": "Fiber 3",
+                    "output_power_unit": "microwatt",
+                    "patch_cord_name": "Patch Cord 3",
+                    "patch_cord_output_power": "20"
+                }
+            ],
+            "fiber_modules": [],
+            "light_sources": [
+                {
+                    "device_type": "Light emitting diode",
+                    "excitation_power": 20,
+                    "excitation_power_unit": "microwatt",
+                    "name": "470nm LED"
+                },
+                {
+                    "device_type": "Light emitting diode",
+                    "excitation_power": 20,
+                    "excitation_power_unit": "microwatt",
+                    "name": "415nm LED"
+                },
+                {
+                    "device_type": "Light emitting diode",
+                    "excitation_power": 20,
+                    "excitation_power_unit": "microwatt",
+                    "name": "565nm LED"
+                }
+            ],
+            "manipulator_modules": [],
+            "mri_scans": [],
+            "notes": "Fib modality: fib mode: Normal",
+            "ophys_fovs": [],
+            "slap_fovs": [],
+            "software": [
+                {
+                    "name": "Bonsai",
+                    "parameters": {},
+                    "url": "https://github.com/AllenNeuralDynamics/PavlovianCond_Bonsai/tree/dafd7dfe0f347f781e91466b3d16b83cf32f8b6d", 
+                    "version": ""
+                }
+            ],
+            "stack_parameters": null,
+            "stick_microscopes": []
+        }
+    ]

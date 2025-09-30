@@ -1,0 +1,12 @@
+{
+    "stimulus_name": "OptoStim",
+    "pulse_shape": "Square",
+    "pulse_frequency": [10],
+    "number_pulse_trains": [30],
+    "pulse_width": [5],
+    "pulse_train_duration": [2],
+    "pulse_train_interval": 28,
+    "baseline_duration": 120,
+    "wavelength": 100,
+    "power": 10
+}
